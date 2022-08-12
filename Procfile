@@ -1,0 +1,1 @@
+web: gunicorn Betterplace_project.wsgi --log-file -

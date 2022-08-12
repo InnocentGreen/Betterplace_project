@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block contents %}
+    <!--=========== BEGIN DISCOVER SECTION ================-->
+    <section id="contact">
+      <div class="container">
+       <div class="row">
+          <div class="col-lg-12 col-md-12"> 
+            <div class="title_area">
+              <h2 class="title_two">Discover Details</h2>
+              <span></span> 
+            </div>
+          </div>
+       </div>
+       <div class="row">
+         <div class="col-lg-8 col-md-8 col-sm-8">
+           <div class="contact_form wow fadeInLeft">
+              <form class="dropdown_menu_form">
+              Location: <br>
+              <select name="dropdown_menu_option" id="dropdown_menu_option">
+                <option selected="All-Placess">All Places</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Burundi">Burundi</option>
+                <option value="Sudan">Sudan</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Somalia">Somalia</option>
+                <option value="Women">Women</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="South-Africa">South Africa</option>
+                <option value="Congo">Congo</option>
+              </select>  
+              </form>
+           </div>
+         </div>         
+        </div>         
+      </div>
+    </section>
+    <!--=========== END CONTACT SECTION ================-->
+
+    
+    {% endblock contents %}

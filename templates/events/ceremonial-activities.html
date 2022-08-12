@@ -1,0 +1,244 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block contents %}
+
+    <!--=========== BEGIN SLIDER SECTION ================-->
+    <section id="slider">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="slider_area">
+              <!-- Start super slider -->
+              <div id="slides">
+                  <div class="slides-container">                          
+                      <div>
+                          <img class="mySlides w3-animate-fading" src="{% static 'img/slider/7.jpg' %}" alt="img">
+                          <div class="slider_caption">
+                              <h2>BETTERPLACE'S STAFF TEAM</h2>
+                              <h3>Betterplace the Light of the World</h3>
+                              <!--<a class="slider_btn" href="#">Know More</a>-->
+                          </div>
+                          <img class="mySlides w3-animate-fading" src="{% static 'img/slider/7.jpg' %}" alt="img">				
+                      </div>
+                 </div>
+                <!--<nav class="slides-navigation">
+                  <a href="#" class="next"></a>
+                  <a href="#" class="prev"></a>
+                </nav>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=========== END SLIDER SECTION ================-->
+  
+      <!--=========== BEGIN ABOUT US SECTION ================-->
+      <br><br><section id="aboutUs">
+          <div class="container">
+              <div class="row">              
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="newsfeed_area wow fadeInRight">
+                  <ul class="nav nav-tabs feed_tabs" id="myTab2">
+                    <li class="active"><a href="#news" data-toggle="tab">News</a></li>
+                    <li><a href="#notice" data-toggle="tab">Notice</a></li>
+                    <li><a href="#events" data-toggle="tab">Events</a></li>         
+                  </ul>
+      
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                      <!-- Start news tab content -->
+                      <div class="tab-pane fade in active" id="news">                
+                          <ul class="news_tab">
+                              <li>
+                              <div class="media">
+                                  <div class="media-left">
+                                      <a class="news_img" href="#">
+                                      <img class="media-object" src="{% static 'img/whats-new.jpg' %}" alt="img">
+                                      </a>
+                                  </div>
+                                  <div class="media-body">
+                                      <a href="about/our-team">Celebrating group achievements</a><br>
+                                      <span class="feed_date">25.06.2022</span>
+                                  </div>
+                              </div>                    
+                              </li>
+                        <li>
+                          <div class="media">
+                            <div class="media-left">
+                              <a class="news_img" href="#">
+                                <img class="media-object" src="{% static 'img/10.jpg' %}" alt="img">
+                              </a>
+                            </div>
+                            <div class="media-body">
+                             <a href="events/gallary">Network Against Child Trafficking</a><br>
+                             <span class="feed_date">21.02.22</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="media">
+                            <div class="media-left">
+                              <a class="news_img" href="#">
+                                <img class="media-object" src="{% static 'img/6.jpg' %}" alt="img">
+                              </a>
+                            </div>
+                            <div class="media-body">
+                             <a href="donations/donation-overview">Betterplace makes donations to school students</a><br>
+                             <span class="feed_date">16.01.2022</span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>                
+                      <!--<a class="see_all" href="#">See All</a>-->
+                    </div>
+                    <!-- Start notice tab content -->  
+                    <div class="tab-pane fade " id="notice">
+                      <div class="single_notice_pane">
+                        <ul class="news_tab">
+                          <li>
+                            <div class="media">
+                              <div class="media-left">
+                                  <div class="postdate-area">
+                                      <span>01</span>
+                                      <div class="postdate-area-item">
+                                          <p class="month">Jan</p>
+                                          <p class="year">2022</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="media-body">
+                                  <h3>Registration</h3>
+                              </div>
+                            </div>                   
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="media-left">
+                                  <div class="postdate-area">
+                                      <span>27</span>
+                                      <div class="postdate-area-item">
+                                          <p class="month">Jan</p>
+                                          <p class="year">2022</p>
+                                      </div>
+                                  </div>						
+                              </div>
+                              <div class="media-body">
+                               <h3>Orientation Service</h3>         
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="media">
+                              <div class="media-left">
+                                  <div class="postdate-area">
+                                      <span>04</span>
+                                      <div class="postdate-area-item">
+                                          <p class="month">Feb</p>
+                                          <p class="year">2022</p>
+                                      </div>
+                                  </div>						
+                              </div>
+                              <div class="media-body">
+                               <h3>Search Begins</h3> 
+                              </div>
+                            </div>
+                          </li>                                    
+                        </ul>
+                        <ul class="news_tab">
+                          <li>
+                          <div class="media">
+                              <div class="media-left">
+                                  <div class="postdate-area">
+                                      <span>08</span>
+                                      <div class="postdate-area-item">
+                                          <p class="month">April</p>
+                                          <p class="year">2022</p>
+                                      </div>
+                                  </div>						
+                              </div>
+                              <div class="media-body">
+                               <h3>Search Ends</h3>
+                              </div>
+                          </div>
+                            <div class="media">
+                              <div class="media-left">
+                                  <div class="postdate-area">
+                                      <span>24</span>
+                                      <div class="postdate-area-item">
+                                          <p class="month">April</p>
+                                          <p class="year">2022</p>
+                                      </div>
+                                  </div>						
+                              </div>
+                              <div class="media-body">
+                               <h3>Individual Assessment and Evaluation</h3>
+                              </div>
+                            </div>
+                          </li>                                 
+                        </ul>
+                      </div>               
+                    </div>
+                    <!-- Start events tab content -->
+                    <div class="tab-pane fade " id="events">
+                      <ul class="news_tab">
+                        <li>
+                          <div class="media">
+                            <div class="media-left">
+                                  <div class="postdate-area">
+                                      <span>12</span>
+                                      <div class="postdate-area-item">
+                                          <p class="month">June</p>
+                                          <p class="year">2022</p>
+                                      </div>
+                                  </div>					  
+                            </div>
+                            <div class="media-body">
+                             <h3>Charitable Marathon</h3>
+                            </div>
+                          </div>
+                          <div class="media">
+                            <div class="media-left">
+                                  <div class="postdate-area">
+                                      <span>16</span>
+                                      <div class="postdate-area-item">
+                                          <p class="month">June</p>
+                                          <p class="year">2022</p>
+                                      </div>
+                                  </div>					  
+                            </div>
+                            <div class="media-body">
+                             <h3>Enrollment of new Entrant Researchers</h3>
+                            </div>
+                          </div>
+                          <div class="media">
+                            <div class="media-left">
+                                  <div class="postdate-area">
+                                      <span>23</span>
+                                      <div class="postdate-area-item">
+                                          <p class="month">June</p>
+                                          <p class="year">2022</p>
+                                      </div>
+                                  </div>					  
+                            </div>
+                            <div class="media-body">
+                             <h3>Appreciation Ceremony</h3>
+                            </div>
+                          </div>                  
+                        </li>                 
+                      </ul>
+                      <!--<a class="see_all" href="#">See All</a>-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </section>
+          <!--=========== END ABOUT US SECTION ================--> 
+             </div>
+         </div>
+      </section>
+  </section>
+
+{% endblock contents %}
